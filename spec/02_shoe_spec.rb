@@ -8,7 +8,6 @@ describe 'Shoe' do
       brands.each do |brand|
         Shoe.new(brand)
       end
-
       brands.each do |brand|
         expect(Shoe::BRANDS).to include(brand)
       end
